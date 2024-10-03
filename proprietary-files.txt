@@ -830,6 +830,11 @@ vendor/lib64/vendor.mediatek.hardware.camera.isphal@1.1.so
 vendor/lib64/vendor.mediatek.hardware.camera.postproc@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.security@1.0.so
 
+# Camera - from OnePlus Ace 2V (PHP110_14.0.0.551(CN01))
+odm/etc/camera/CameraHWConfiguration.config:odm/overlay/prj_22823/odm/etc/camera/CameraHWConfiguration.config|50890392cb027b160dd84f51c23fbc52b03d6f81
+odm/lib64/mt6983/ov64b_mipi_raw_22823_IdxMgr.so|3b59f402f7df56e7d67432361ff65d35c6eaeaba
+odm/lib64/mt6983/ov64b_mipi_raw_22823_tuning.so|8b9fb58d258e48b304433debf0b536853d98d477
+
 # Camera firmware
 vendor/firmware/lib3a.ccu
 vendor/firmware/lib3a.ccu_dummy
@@ -860,6 +865,10 @@ vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/mt6983/IS
 vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/mt6983/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/ISP_param.db
 vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mt6983/ISP_info.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ISP_info.db
 vendor/lib64/libSQLiteModule_VER_ALL.so
+
+# Camera SQLiteModule database - from OnePlus Ace 2V (PHP110_14.0.0.551(CN01))
+odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ov64b_mipi_raw_22823/mt6983/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ov64b_mipi_raw_22823/ISP_mapping.db|5c9fca4ca4471e95cdff7678b98074e4a9fe0fe0
+odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ov64b_mipi_raw_22823/mt6983/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ov64b_mipi_raw_22823/ISP_param.db|b29b63d49e251b19dff7fe10644893aa38116195
 
 # Charger firmware
 odm/firmware/fastchg/21871/oplus_vooc_fw_op10.bin

@@ -5,6 +5,12 @@
 #
 
 on init
+    # Camera
+    ## The two vitamin variants have a different main camera sensor (CN = OV64B and GLO = IMX890).
+    ## Our vendor camera blobs read CameraHWConfiguration.config which is variant specific unfortunately.
+    ## Instead of making a whole separate target just for the CN variant, let's make use of overlay fs.
+    mount overlay overlay /odm/etc lowerdir=/odm/overlay/prj_${ro.boot.prjname}/odm/etc:/odm/etc
+
     # Charger
     write /proc/fastchg_fw_update 1
     write /proc/ui_soc_decimal 1
