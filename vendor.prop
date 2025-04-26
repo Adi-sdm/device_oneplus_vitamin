@@ -279,7 +279,7 @@ ro.vendor.mtk.sensor.support=yes
 
 # SoC
 ro.soc.manufacturer=Mediatek
-ro.soc.model=MT6983Z/CZA
+ro.soc.model=MT6983
 
 # TEE
 ro.vendor.mtk_tee_gp_support=1
