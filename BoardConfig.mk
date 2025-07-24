@@ -27,7 +27,7 @@ $(call soong_config_set,surfaceflinger,udfps_lib,//hardware/oplus:libudfps_exten
 # HIDL
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
     hardware/mediatek/vintf/mediatek_framework_compatibility_matrix.xml \
-    hardware/oplus/vintf/device_framework_matrix.xml \
+    $(DEVICE_PATH)/device_framework_matrix.xml \
     vendor/cherish/config/device_framework_matrix.xml
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 DEVICE_MATRIX_FILE += $(DEVICE_PATH)/compatibility_matrix.xml
