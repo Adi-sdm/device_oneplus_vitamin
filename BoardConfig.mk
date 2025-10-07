@@ -199,3 +199,4 @@ WIFI_FEATURE_HOSTAPD_11AX := true
 
 # Inherit the proprietary files
 include vendor/oneplus/vitamin/BoardConfigVendor.mk
+#prototype
